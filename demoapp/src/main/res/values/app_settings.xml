@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String based constants-->
+    <string name="app_name">My Operator</string>
+    <string name="base_url">https://my-operator.jellyswitch.com</string>
+
+    <!-- Base Colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorLogo">#8ACA3C</color>
+
+    <!-- Menu text -->
+    <style name="menu_text_style" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Dont need to edit -->
+    <!-- Colors as Themes -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_menu"
+    tools:showIn="navigation_view"
+    app:itemTextAppearance="@style/menu_text_style">
+
+    <!-- Place Holder   -->
+    <group android:checkableBehavior="single"
+        android:id="@+id/drawer_menu_group">
+        <item
+            android:id="@+id/home_menu"
+            android:title="Loading Menu..." />
+    </group>
+</menu>
